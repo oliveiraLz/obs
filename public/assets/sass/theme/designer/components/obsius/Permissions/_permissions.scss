@@ -1,0 +1,35 @@
+$backgroundPage: #97deff;
+$aside: #8f43ee;
+$gray: #1b1f2e;
+$white: #ffffff;
+$backgroundHeader: #f1f5f9;
+$hoverSignout: #bdcdd6;
+$backgroundInput: #f1f5f9;
+$font: "DM Sans", sans-serif;
+
+.container-permissions-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+
+  .container-main-permissions-page {
+    width: 83vw;
+    display: flex;
+    flex-direction: column;
+    border-left: 0.2rem solid $gray;
+
+    .section-main {
+      display: flex;
+      flex-direction: column;
+
+      height: 87vh;
+
+      .container-data-user {
+        width: 81vw;
+        height: 75vh;
+        margin-top: 5rem;
+      }
+    }
+  }
+}

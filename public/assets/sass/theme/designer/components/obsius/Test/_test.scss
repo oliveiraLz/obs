@@ -1,0 +1,43 @@
+$backgroundPage: #97deff;
+$aside: #8f43ee;
+$gray: #1b1f2e;
+$white: #ffffff;
+$backgroundHeader: #f1f5f9;
+$hoverSignout: #bdcdd6;
+$backgroundInput: #f1f5f9;
+$font: "DM Sans", sans-serif;
+
+.container-groups-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  .container-main-groups-page {
+    width: 83vw;
+    display: flex;
+    flex-direction: column;
+    border-left: 0.1rem solid $gray;
+
+    .section-main {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      height: 87vh;
+
+      .container-new-group-button {
+        display: flex;
+        align-items: center;
+        padding-left: 0.8rem;
+        height: 6vh;
+        width: 100%;
+        margin-top: 0.5rem;
+      }
+
+      .container-data-groups {
+        width: 82.5vw;
+        height: 85vh;
+      }
+    }
+  }
+}

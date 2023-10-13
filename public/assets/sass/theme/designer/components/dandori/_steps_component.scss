@@ -1,0 +1,48 @@
+.steps-component {
+  margin-bottom: 24px;
+
+  .step-container {
+    .step-index {
+      width: 48px;
+      height: 48px;
+      background-color: #fff;
+      border: 2px solid $primaryColor;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 12px;
+
+      span {
+        color: $secondaryColor;
+        font-size: 20px;
+        line-height: 13px;
+        font-weight: 900;
+        margin-top: -3px;
+      }
+
+      &.step-active {
+        background-color: $primaryColor;
+
+        span {
+          color: #fff;
+        }
+      }
+    }
+
+    .step-value {
+      max-width: 132px;
+      color: $secondaryColor;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+  }
+
+  .icon {
+    margin-left: 24px;
+    margin-right: 35px;
+    color: #2e2e2e;
+    font-size: 16px;
+  }
+}

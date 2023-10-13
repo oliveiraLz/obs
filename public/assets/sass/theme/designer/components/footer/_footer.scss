@@ -1,0 +1,21 @@
+.footer {
+  padding: 20px 0 15px;
+  color: #93a5b1;
+  background-color: transparent;
+
+  display: flex;
+  align-items: center;
+  transition: all 0.2s ease 0s;
+  margin-top: auto;
+}
+
+.footer.visible {
+  margin-left: 300px;
+}
+
+.footer-text {
+  font-family: "Lato", sans-serif !important;
+  line-height: 1;
+  font-size: 12px;
+  margin-left: 20px;
+}

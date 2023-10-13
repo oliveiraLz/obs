@@ -1,0 +1,104 @@
+$backgroundPage: #97deff;
+$aside: #8f43ee;
+$gray: #1b1f2e;
+$white: #ffffff;
+$backgroundHeader: #f1f5f9;
+$hoverSignout: #bdcdd6;
+
+.container-groups-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: $white;
+
+  .container-side-menu {
+    display: flex;
+    width: 18vw;
+    background: $white;
+    border-right: 2px solid $gray;
+
+    .menu-left-side {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 3.5vw;
+      background-color: $gray;
+      gap: 7rem;
+    }
+
+    .menu-right-side {
+      width: 14.5vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .container-logo {
+        img {
+          width: 6.5vw;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+
+  .container-header-test-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $backgroundHeader;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 82vw;
+    height: 12vh;
+
+    .header-title {
+      display: flex;
+      flex-direction: column;
+      margin-left: 3rem;
+
+      h1 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        margin-left: 0.9rem;
+      }
+    }
+
+    .header-user {
+      align-items: flex-end;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      h2 {
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+
+      span {
+        font-size: 1.1rem;
+      }
+    }
+
+    .container-header-user-perfil {
+      display: flex;
+      margin-right: 3rem;
+      align-items: center;
+      gap: 0.8rem;
+
+      .container-sign-out {
+        padding: 0.5rem;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.2s;
+
+        &:hover {
+          background-color: $hoverSignout;
+        }
+      }
+
+      .pi {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

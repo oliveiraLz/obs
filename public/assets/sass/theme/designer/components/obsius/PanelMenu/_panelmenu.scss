@@ -1,0 +1,21 @@
+.p-panelmenu {
+  background-color: transparent;
+  border: none;
+
+  .p-panelmenu-header {
+    background-color: transparent !important;
+    border: none;
+  }
+
+  .p-panelmenu-content {
+    border: none;
+  }
+
+  .p-submenu-list {
+    border: none;
+  }
+
+  .p-menuitem {
+    border: none;
+  }
+}

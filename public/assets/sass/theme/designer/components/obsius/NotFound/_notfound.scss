@@ -1,0 +1,44 @@
+$background: #1b1f2e;
+$backgroundLink: #59b0fc;
+
+.container-notfound-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: $background;
+  align-items: center;
+  justify-content: center;
+
+  .container-img-link {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+
+    img {
+      width: 30vw;
+    }
+
+    h1 {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+
+    a {
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: $backgroundLink;
+      text-decoration: none;
+      transition: all 0.2s;
+
+      &:hover {
+        color: #7149c6;
+      }
+    }
+  }
+
+  .container-text-404 {
+    text-align: center;
+  }
+}

@@ -1,0 +1,27 @@
+$backgroundInput: #f1f5f9;
+
+.container-data-user {
+  .p-datatable {
+    min-width: 20vw;
+
+    .p-column-title {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  }
+
+  .p-inputtext-lb {
+    border: none;
+    background-color: $backgroundInput;
+  }
+
+  .p-datatable-borderless {
+    .p-datatable-tbody > tr {
+      border: none;
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}

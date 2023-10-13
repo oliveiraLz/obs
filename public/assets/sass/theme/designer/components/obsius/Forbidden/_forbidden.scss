@@ -1,0 +1,36 @@
+.container-forbidden {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #1b1f2e;
+
+  .container-image-error {
+    width: 35vw;
+  }
+
+  .container-text {
+    text-align: center;
+    .text-descritive {
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 2rem;
+      line-height: 2.5rem;
+    }
+
+    .link-back {
+      color: #fff;
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: #59b0fc;
+      transition: all 0.2s;
+
+      &:hover {
+        color: #7149c6;
+      }
+    }
+  }
+}

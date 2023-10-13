@@ -1,0 +1,30 @@
+.custom-vertical-form-field-container {
+  // border: solid green 1px;
+  color: $secondaryColor;
+  width: 100%;
+
+  .custom-vertical-form-field-label-container {
+    // border: solid red 1px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    .custom-vertical-form-field-icon {
+      margin-right: 0.5rem;
+      font-size: 14px;
+    }
+    .custom-vertical-form-field-label {
+      font-size: 14px;
+    }
+    .custom-vertical-form-modify-field-label {
+      font-size: 16px;
+      color: #ffffffde;
+    }
+  }
+}
+
+.custom-vertical-form-field-error-container {
+  height: 14px;
+  .custom-vertical-form-field-error {
+    font-size: 12px;
+  }
+}

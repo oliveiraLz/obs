@@ -1,0 +1,22 @@
+#card {
+  width: 132px;
+
+  .visualizacao-dandori {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 175px;
+    position: relative;
+
+    span {
+      font-family: "Lato";
+
+      position: absolute;
+
+      /* Border is the new background */
+      background: none;
+
+      // transform-origin: center;
+      // transform: rotate(-45deg);
+    }
+  }
+}

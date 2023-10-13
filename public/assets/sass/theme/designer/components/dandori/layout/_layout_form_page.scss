@@ -1,0 +1,53 @@
+.layout-form-container {
+  & > div {
+    width: 50%;
+
+    .card {
+      background-color: #ffffff;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      padding: 14px 24px;
+
+      &:not(:last-of-type) {
+        margin-bottom: 12px;
+      }
+
+      .title-card {
+        font-family: "Lato";
+        color: #284b63;
+        font-size: 17px;
+        line-height: 24px;
+        margin-bottom: 26px;
+      }
+
+      .search-container {
+        margin-bottom: 20px;
+        width: 100%;
+        border-bottom: 1px solid #284b63;
+
+        span {
+          color: #284b63;
+        }
+
+        .p-inputtext {
+          border: none;
+          width: 100%;
+
+          &:enabled:focus {
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+
+  .processos-table {
+    .p-datatable .p-datatable-tbody > tr > td {
+      border-width: 0px !important;
+    }
+  }
+
+  .ml-40px {
+    margin-left: 40px;
+  }
+}

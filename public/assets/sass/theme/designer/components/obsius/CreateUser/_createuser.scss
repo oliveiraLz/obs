@@ -1,0 +1,13 @@
+.create-user-bar-buttons-action {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+
+  .container-buttons {
+    display: flex;
+    gap: 0.3em;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+  }
+}

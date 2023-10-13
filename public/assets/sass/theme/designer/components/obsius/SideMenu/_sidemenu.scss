@@ -1,0 +1,33 @@
+$white: #fff;
+
+.container-sidemenu {
+  display: flex;
+  width: 17vw;
+
+  .sidemenu-left {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 2vw;
+    background-color: $backgroundSidemenu;
+  }
+
+  .sidemenu-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 15vw;
+    background-color: $white;
+
+    .image-sidemenu {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      width: 15vw;
+
+      img {
+        width: 65%;
+      }
+    }
+  }
+}

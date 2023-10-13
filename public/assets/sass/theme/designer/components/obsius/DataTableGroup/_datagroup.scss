@@ -1,0 +1,17 @@
+$backgroundInput: #f1f5f9;
+
+.container-data-group {
+  .p-datatable {
+    min-width: 20vw;
+
+    .p-column-title {
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  }
+
+  .input-text-lc {
+    border: none;
+    background-color: $backgroundInput;
+  }
+}

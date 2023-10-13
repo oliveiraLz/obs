@@ -1,0 +1,20 @@
+.content-page-container {
+  display: flex;
+  flex: 1 1;
+  flex-direction: column;
+  padding: 36px 36px 8px 36px;
+}
+
+.content-page-header {
+  margin-bottom: 40px;
+
+  & > nav {
+    margin-top: 8px;
+  }
+}
+
+.content-page-title {
+  font-family: "Lato", sans-serif !important;
+  color: rgb(40, 75, 99);
+  font-size: 24px;
+}

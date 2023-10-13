@@ -1,0 +1,111 @@
+$backgroundPage: #97deff;
+$aside: #8f43ee;
+$gray: #1b1f2e;
+$white: #ffffff;
+$backgroundHeader: #f1f5f9;
+$hoverSignout: #bdcdd6;
+$backgroundInput: #f1f5f9;
+$font: "DM Sans", sans-serif;
+
+.container-creategroup-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+
+  .container-main-creategroup-page {
+    width: 83vw;
+    display: flex;
+    flex-direction: column;
+    border-left: 0.1rem solid $gray;
+
+    .section-main {
+      display: flex;
+      flex-direction: column;
+      height: 87vh;
+
+      .create-group-bar-buttons-action {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #fff;
+
+        .container-buttons {
+          display: flex;
+          gap: 0.3em;
+          padding-top: 1rem;
+          padding-left: 0.5rem;
+        }
+      }
+
+      .container-title {
+        display: flex;
+        align-items: center;
+        margin: 2rem 0 0 2rem;
+
+        h1 {
+          width: 15vw;
+          font-size: 1.5rem;
+          font-weight: 600;
+        }
+      }
+
+      .container-form-data-creategroup {
+        display: flex;
+        flex-direction: column;
+        margin: 5rem 0 0 2rem;
+        width: 30vw;
+
+        label {
+          font-size: 1.1rem;
+          font-weight: 600;
+          margin-top: 0.8rem;
+        }
+
+        .p-inputtext-lg {
+          width: 30vw;
+          border: none;
+          background-color: $backgroundInput;
+          padding-left: 2rem;
+          font-size: 1rem;
+          height: 5vh;
+          margin-top: 0.5rem;
+          border-radius: 0.8rem;
+        }
+
+        .p-invalid {
+          width: 30vw;
+          background-color: $backgroundError;
+          padding-left: 2rem;
+          font-size: 1rem;
+          height: 5vh;
+          border: none;
+          margin-top: 0.5rem;
+          border-radius: 0.8rem;
+        }
+
+        .message-error {
+          display: flex;
+          gap: 0.5rem;
+          align-items: center;
+          color: $colorError;
+          margin: 0.4rem 0 0 0;
+
+          i {
+            font-size: 1rem;
+          }
+        }
+
+        Button {
+          width: 30vw;
+          height: 5vh;
+          background-color: $backgroundBtn;
+          border: none;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 0.8rem;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}

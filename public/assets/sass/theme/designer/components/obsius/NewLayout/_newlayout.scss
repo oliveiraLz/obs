@@ -1,0 +1,12 @@
+.container-page {
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+
+  .container-main {
+    width: 80vw;
+    margin-top: 5em;
+  }
+}

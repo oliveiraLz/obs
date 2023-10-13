@@ -1,0 +1,53 @@
+.container-testando {
+  width: 100vw;
+  height: 100vh;
+  background-color: cadetblue;
+  opacity: 1;
+
+  .p-sidebar {
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .p-sidebar .p-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .p-sidebar .p-menu .p-menuitem {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .p-sidebar .p-menu .p-menuitem:hover {
+    background-color: #444;
+  }
+
+  .p-sidebar .p-menu .p-menuitem-active {
+    background-color: #555;
+    color: #fff;
+  }
+
+  .p-sidebar .p-menu .p-submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .p-sidebar .p-menu .p-submenu .p-menuitem {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .p-sidebar .p-menu .p-submenu .p-menuitem:hover {
+    background-color: #444;
+  }
+
+  .p-sidebar .p-menu .p-submenu .p-menuitem-active {
+    background-color: #555;
+    color: #fff;
+  }
+}

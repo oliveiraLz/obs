@@ -1,0 +1,104 @@
+$backgroundSidemenu: #1b1f2e;
+$blue: #59b0fc;
+$backgroundInput: #f1f5f9;
+
+.container-newjob-page {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  .container-main-newjob-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+    border-left: 0.2rem solid $backgroundSidemenu;
+
+    .section-main {
+      height: 87vh;
+
+      .title-main {
+        align-items: center;
+        margin: 2rem 0 0 3rem;
+        display: flex;
+        width: 80vw;
+
+        h1 {
+          width: 14vw;
+          font-size: 1.6rem;
+          font-weight: 600;
+        }
+      }
+
+      .container-form-new-job {
+        display: flex;
+        width: 30vw;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-left: 3rem;
+
+        label {
+          font-size: 1.1rem;
+          font-weight: 700;
+          margin-top: 1.5rem;
+        }
+
+        .input-form {
+          background-color: $backgroundInput;
+          margin-top: 0.5rem;
+          border: none;
+          height: 3.2rem;
+          border-radius: 0.7rem;
+
+          .p-inputtextarea {
+            background-color: $backgroundInput;
+            border-radius: 0.7rem;
+            margin-top: 0.5rem;
+          }
+        }
+
+        .container-details {
+          display: flex;
+          flex-direction: column;
+          margin-top: 1rem;
+
+          span {
+            font-weight: 700;
+          }
+
+          ul {
+            margin-top: 0.3rem;
+
+            li {
+              margin: 0.3rem 0 0 1.5rem;
+            }
+          }
+        }
+
+        .container-buttons {
+          width: 15vw;
+          display: flex;
+          flex-direction: column;
+          gap: 0.3rem;
+          margin-top: 1rem;
+          .btn-upload {
+            color: $blue;
+            height: 6vh;
+            width: 13vw;
+            border-radius: 0.7rem;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          }
+
+          .btn-add {
+            background-color: $blue;
+            border: none;
+            height: 6vh;
+            border-radius: 0.7rem;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            width: 10vw;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.container-form-data-groups {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-direction: column;
+  width: 83vw;
+  height: 50vh;
+
+  .p-invalid {
+    width: 30vw;
+    background-color: $backgroundError;
+    font-size: 1.1rem;
+    height: 7vh;
+    border: none;
+    margin-top: 0.5rem;
+  }
+
+  .p-inputtext-lg {
+    width: 30vw;
+    border: none;
+    background-color: $backgroundInput;
+    padding-left: 3rem;
+    font-size: 1.1rem;
+    height: 7vh;
+    margin-top: 0.5rem;
+  }
+
+  Button {
+    width: 30vw;
+    background-color: $backgroundBtn;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 1rem;
+  }
+
+  .message-error {
+    display: flex;
+    align-items: center;
+    color: $colorError;
+    margin: 0.4rem 0 0 0;
+    gap: 0.5rem;
+
+    i {
+      font-size: 1rem;
+    }
+  }
+
+  div {
+    width: 30vw;
+  }
+}
+
+.breadcrumb-component {
+  background-color: transparent;
+}

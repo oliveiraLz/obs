@@ -1,0 +1,60 @@
+.p-carousel {
+  .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+    background-color: $primaryColor;
+  }
+}
+
+.p-galleria {
+  .p-galleria-indicators .p-galleria-indicator.p-highlight button {
+    background-color: $primaryColor;
+  }
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  span:first-child {
+    color: #284b63;
+    font-size: 24px;
+    font-family: "Lato";
+    margin-bottom: 5px;
+  }
+}
+
+.page-container {
+  margin: 0px 50px;
+  padding-top: 36px;
+}
+
+.svg-icon {
+  height: auto;
+  margin-right: 7px;
+  font-size: 20px;
+}
+
+.text-fs-title {
+  font-size: 17px;
+}
+
+.title-card-colors {
+  color: $secondaryColor;
+}
+
+.header-list {
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.18px;
+  color: $secondaryColor;
+}
+
+.material-icons-round {
+  color: $secondaryColor;
+}
+
+.body-icon-fs-22 {
+  span  {
+    font-size: 22px !important;
+  }
+}
